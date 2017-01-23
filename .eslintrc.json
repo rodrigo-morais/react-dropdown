@@ -1,0 +1,12 @@
+{
+    "extends": "airbnb",
+    "plugins": [
+        "react",
+        "jsx-a11y",
+        "import"
+    ],
+    "rules": {
+      "comma-dangle": ["error", "never"],
+      "semi": [2, "never"]
+    }
+}

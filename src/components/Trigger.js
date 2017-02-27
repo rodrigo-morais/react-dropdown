@@ -1,13 +1,13 @@
-import React, { PropTypes } from 'react';
+import React, { PropTypes } from 'react'
 
-function Trigger({ text }) {
+function Trigger({ text = 'Select' }) {
   return (
-    <a>{text}</a>
-  );
+    <a>{ text || 'Select' }</a>
+  )
 }
 
 Trigger.propTypes = {
   text: PropTypes.string.isRequired
-};
+}
 
-export default Trigger;
+export default Trigger

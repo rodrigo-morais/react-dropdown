@@ -7,6 +7,14 @@
     ],
     "rules": {
       "comma-dangle": ["error", "never"],
-      "semi": [2, "never"]
+      "semi": [2, "never"],
+      "import/extensions": [1, {"js": "never"}],
+      "import/no-unresolved": [2, {"ignore": [ "src/" ]}],
+      "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+      "import/no-extraneous-dependencies": [0, { }]
+    },
+    "env": {
+      "mocha": true,
+      "es6": true
     }
 }

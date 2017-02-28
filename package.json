@@ -4,6 +4,7 @@
   "description": "A dropdown developed as a React component.",
   "main": "main.js",
   "scripts": {
+    "posttest": "npm run lint",
     "test": "npm run test:unit",
     "test:unit": "./node_modules/mocha/bin/mocha --opts spec/mocha.opts",
     "start": "webpack-dev-server",
